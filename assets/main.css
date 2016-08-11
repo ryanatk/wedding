@@ -1,15 +1,15 @@
-html {  padding:40px 0;
-        background-color:#f9f3d9; }
+html {  padding:32px 0;
+        background-color:#fff; }
 body {  width:600px; margin:0 auto;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
-header, section { background:#fff; }
-header { padding:20px 0; }
-section { margin:20px 0; padding:20px; }
+header, section { background:#fff; box-shadow:0px 0px 16px 0px rgba(249, 243, 217, 0.6); }
+header { padding:16px 0; }
+section { margin:16px 0; padding:16px 32px; }
 
 h1 {  }
 h2, h3 {
-      margin:1em 0 .5em;
+      margin:1em 0 12px;
       text-transform:uppercase; font-weight:normal;
       font-family:Rockwell, “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif; }
 h2 {  margin-top:0;
