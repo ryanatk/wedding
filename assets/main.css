@@ -1,0 +1,22 @@
+html {  padding:40px 0;
+        background-color:#f9f3d9; }
+body {  width:600px; margin:0 auto;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+header, section { background:#fff; }
+header { padding:20px 0; }
+section { margin:20px 0; padding:20px; }
+
+h1 {  }
+h2, h3 {
+      margin:1em 0 .5em;
+      text-transform:uppercase; font-weight:normal;
+      font-family:Rockwell, “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif; }
+h2 {  margin-top:0;
+      color:#72364d; font-size:200%; }
+h3 { font-size:150%; }
+
+p.detail { margin:10px 0; }
+
+header h1 { margin:0; }
+header h1 img { width:100%; }
