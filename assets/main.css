@@ -35,16 +35,19 @@ header { padding-left:0; padding-right:0; }
 section {}
 
 h1, h2 { margin:32px 0 16px; }
+h2 span { white-space:nowrap;}
 img { display:block; width:100%; margin:16px 0; }
-p, li { margin:16px 0; text-align:center; }
-li { list-style:none; }
+ul { margin:16px 0; padding:0; }
+p, li, aside { margin:16px auto; width:70%; text-align:center; }
+li { display:block; list-style:none; }
+aside { font-style:italic;}
 
-p.detail { margin:8px 0; }
+p.detail { margin:8px auto; }
 
 /* section-specific overrides */
 #please-join { margin:48px auto; }
 #please-join h1, #please-join .detail {
-  margin:32px 0; font-size:80%; color:#999; font-weight: normal;
+  margin:32px auto; font-size:80%; color:#999; font-weight: normal;
 }
 #please-join p.names {
   padding:16px;
@@ -62,3 +65,11 @@ p.detail { margin:8px 0; }
   color:#999;
 }
 #please-join .and::before, #please-join .and::after { content:"\2014";}
+
+#gift-registry ul { text-align:center; }
+#gift-registry li {
+  display:inline;
+  padding:0 8px 0 12px;
+  border-right:2px solid #aaa;
+}
+#gift-registry li:last-of-type { border-right:none; }
